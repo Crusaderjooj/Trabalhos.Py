@@ -1,0 +1,10 @@
+conjunto1 = set({})
+conjunto2 = set({})
+for i in range(10):
+    x = int (input("Digite um numero para o conjunto 1: "))
+    conjunto1.add(x)
+    y = int (input("Digite um numero para o conjunto 2: "))
+    conjunto2.add(y)
+print(f"os elementos contidos nos dois conjuntos são: {conjunto1}{conjunto2}")
+print(f"O primeiro conjunto: {conjunto1}")
+print(f"A união dos conjuntos é {conjunto1.union(conjunto2)}")
