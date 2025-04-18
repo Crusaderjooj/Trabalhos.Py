@@ -1,2 +1,2 @@
 # Trabalhos.Py
-homeWorks from College
+HomeWorks from College during my 2 Semester
