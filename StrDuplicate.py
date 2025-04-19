@@ -1,0 +1,5 @@
+palavra = input("Digite uma palavra: ")
+lista =  list(palavra)
+nova = list(set(lista))
+print(f"A palavra escolhida foi: {palavra}")
+print(f"contendo as letras: {nova}")
